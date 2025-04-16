@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "departmentId": 1,
+    "position": "Разработчик"
+  },
+  {
+    "id": 2,
+    "firstName": "Пётр",
+    "lastName": "Петров",
+    "departmentId": 2,
+    "position": "Тестеровщик"
+  },
+  {
+    "id": 3,
+    "firstName": "Александр",
+    "lastName": "Сидоров",
+    "departmentId": 1,
+    "position": "Руководитель"
+  }
+]

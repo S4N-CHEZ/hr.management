@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hr.management.App", "hr.management.App\hr.management.App.csproj", "{C872E8FF-D743-44C1-BDA7-5A3D5DB9B499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hr.management.App", "hr.management.App\hr.management.App.csproj", "{C872E8FF-D743-44C1-BDA7-5A3D5DB9B499}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC33DE44-1B94-4BB4-A4A8-39D42841557D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hr.management.DataStoragesService", "hr.management.DataStoragesService\hr.management.DataStoragesService.csproj", "{EBF47AFD-9766-40C3-B842-CE838C2C76F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hr.management.SerializationService", "hr.management.SerializationService\hr.management.SerializationService.csproj", "{659105FC-D7E1-419E-B681-2C40B2642DA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,14 @@ Global
 		{C872E8FF-D743-44C1-BDA7-5A3D5DB9B499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C872E8FF-D743-44C1-BDA7-5A3D5DB9B499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C872E8FF-D743-44C1-BDA7-5A3D5DB9B499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF47AFD-9766-40C3-B842-CE838C2C76F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF47AFD-9766-40C3-B842-CE838C2C76F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF47AFD-9766-40C3-B842-CE838C2C76F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF47AFD-9766-40C3-B842-CE838C2C76F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659105FC-D7E1-419E-B681-2C40B2642DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659105FC-D7E1-419E-B681-2C40B2642DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659105FC-D7E1-419E-B681-2C40B2642DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659105FC-D7E1-419E-B681-2C40B2642DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

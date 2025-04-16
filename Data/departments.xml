@@ -1,0 +1,14 @@
+<Departments>
+  <Department>
+    <Id>1</Id>
+    <Name>Отдел разработки ПО</Name>
+  </Department>
+  <Department>
+    <Id>2</Id>
+    <Name>Отдел по тестированию ПО</Name>
+  </Department>
+  <Department>
+    <Id>3</Id>
+    <Name>Администрация</Name>
+  </Department>
+</Departments>
