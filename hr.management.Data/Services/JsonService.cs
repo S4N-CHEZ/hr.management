@@ -1,11 +1,11 @@
-﻿using hr.management.SerializationService.Interfaces;
+﻿using hr.management.Data.Interfaces;
 using System.Text.Json;
 
-namespace hr.management.SerializationService.Sevices
+namespace hr.management.Data.Services
 {
     public class JsonService<T> : ISerializationService<T>
     {
-        public IEnumerable<T> ReadFile(string filePath)
+        public IEnumerable<T> ReadData(string filePath)
         {
             if (!File.Exists(filePath))
                 return new List<T>();
@@ -17,7 +17,7 @@ namespace hr.management.SerializationService.Sevices
             return JsonSerializer.Deserialize<List<T>>(json) ?? new List<T>();
         }
 
-        public void WriteFile(string filePath, IEnumerable<T> items)
+        public void WriteData(string filePath, IEnumerable<T> items)
         {
             var json = JsonSerializer.Serialize(items, new JsonSerializerOptions
             {

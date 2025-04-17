@@ -1,4 +1,4 @@
-﻿namespace hr.management.DataStoragesService.Models
+﻿namespace hr.management.Data.Models
 {
     public class Employee
     {

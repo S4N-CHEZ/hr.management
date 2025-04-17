@@ -1,11 +1,11 @@
-﻿using hr.management.SerializationService.Interfaces;
+﻿using hr.management.Data.Interfaces;
 using System.Xml.Serialization;
 
-namespace hr.management.SerializationService.Sevices
+namespace hr.management.Data.Services
 {
     public class XmlService<T> : ISerializationService<T>
     {
-        public IEnumerable<T> ReadFile(string filePath)
+        public IEnumerable<T> ReadData(string filePath)
         {
             if (!File.Exists(filePath))
                 return new List<T>();
@@ -21,7 +21,7 @@ namespace hr.management.SerializationService.Sevices
             return (List<T>?)serializer.Deserialize(stringReader) ?? new List<T>();
         }
 
-        public void WriteFile(string filePath, IEnumerable<T> items)
+        public void WriteData(string filePath, IEnumerable<T> items)
         {
             var serializer = new XmlSerializer(typeof(List<T>));
 
